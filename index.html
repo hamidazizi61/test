@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: red;
+            font-size:  20px;
+            text-align: right;
+            color: #000;
+            direction: rtl;
+            text-decoration: underline;
+            line-height: 90%;
+        }
+        #p1{
+            word-spacing: 15px;
+            letter-spacing: 10px;
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            font-weight:900;
+            font-style: italic;
+        }
+        span{
+            width: 300px;
+            height: 300px;
+            display:inline-block;
+
+        }
+.sp1{
+    border: blue  solid 10px;
+}
+    .wrapper {border: 10px yellow solid;}
+    .box {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        font-size: 30px;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+    .red{background-color: rgba(255, 0, 0, .2 ); box-shadow: 5px 5px 6px green;}
+    .blue{background-color: blue;text-shadow: 5px 5px 6px green}
+    .green{background-color: green;}
+
+    </style>
+</head>
+<body>
+<div>
+    ali git 
+</div>
+    <div class="wrapper">
+        <div class="red box">red</div>
+        <div class="blue box">blue</div>
+        <div class="green box">green</div>
+
+    </div>
+     
+    <div style="display: none;">
+        <a href="http://google.com"  target="_blank">google</a>
+        <a href="http://yahoo.com" >yahoo</a>
+        <a href="index.css" download="">download</a>
+    
+        <span class="sp1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aut nisi adipisci, modi pariatur culpa sit assumenda! Consectetur porro explicabo similique molestiae nisi error sint culpa eos, quo minima tempore.
+       </span>
+        <h1 id="h1">
+            test 
+        </h1>
+        <p id="p1">
+            Lorem, ipsum &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp dolor sit amet consectetur adipisicing elit. Quisquam, dolorem eius nihil aspernatur error consectetur laborum facere eligendi dicta, sunt explicabo accusantium ullam quo numquam quibusdam tempora voluptas laboriosam quis.
+        </p>
+        <br>
+        <p id="p2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolorem eius nihil aspernatur error consectetur laborum facere eligendi dicta, sunt explicabo accusantium ullam quo numquam quibusdam tempora voluptas laboriosam quis.
+        </p>
+        <hr>
+        <p id="p3">
+            <pre>
+            Lorem,            ipsum dolor sit amet consectetur 
+            adipisicing elit. Quisquam, dolorem eius nihil aspernatur 
+            error consectetur laborum facere eligendi dicta, sunt explicabo accusantium ullam quo numquam quibusdam tempora voluptas laboriosam quis.
+        </pre>
+        </p>
+    </div>
+</body>
+</html>
